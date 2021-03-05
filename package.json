@@ -1,0 +1,14 @@
+{
+  "name": "node-db3-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.0",
+    "nodemon": "^2.0.7",
+    "sqlite3": "^5.0.2"
+  }
+}

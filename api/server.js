@@ -17,6 +17,7 @@ server.use((err, req, res, next) => {
 	console.log(err)
 	res.status(500).json({
 		message: "Oh no, something went wrong!",
+    err
 	})
 })
 

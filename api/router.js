@@ -13,7 +13,7 @@ router.get('/', async (req, res, next) => {
   }
 })
 
-// not working
+
 router.get('/:id/shoppingList', async (req, res, next) => {
   console.log(req.params.id, "working test")
   try {
